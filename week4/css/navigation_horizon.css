@@ -1,0 +1,31 @@
+nav {
+    box-sizing:border-box;
+    border: solid 1px #06425C;
+    color:#06425C;
+    background-color:#FFFFFF;
+    overflow:auto;
+    padding-left:20px;
+}
+
+nav a{
+    border-radius:25px;
+    box-sizing: border-box;
+    display:inline-block;
+    height:60px;
+    color:#FFFFFF;
+    text-decoration:none;
+    background-color:#06425C;
+    line-height : 50px;
+    margin: 1% 5% 1% 0;
+    padding: 5%;
+}
+
+.current{
+    background-color:#800000;
+}
+
+nav a:hover{
+    background-color:#000000;
+    color:#FFFFFF;
+    border-radius:0px;
+}
